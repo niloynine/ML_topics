@@ -94,4 +94,4 @@ The repository expects a local CSV dataset at `data/dataset.csv`. Several notebo
 
 ## License
 
-This repo is intended for personal learning. If you want to add a license, create a `LICENSE` file at the project root.
+This repository includes an MIT `LICENSE` file at the project root.
