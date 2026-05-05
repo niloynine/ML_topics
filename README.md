@@ -65,3 +65,16 @@ git push origin main
 
 - This repository is focused on learning progress and iterative experimentation.
 - Notebooks and notes may evolve frequently as concepts are refined.
+
+## Dataset
+
+The repository expects a local CSV dataset at `data/dataset.csv`. Several notebooks and scripts try multiple candidate paths (e.g., `data/dataset.csv` and `../data/dataset.csv`) — update the path in the notebook or move your dataset into the `data/` folder.
+
+## Contributing
+
+- Add experiments under the `experiments/` folder and notes under `notes/`.
+- Open an issue or submit a PR if you'd like to add improvements or sample datasets.
+
+## License
+
+This repo is intended for personal learning. If you want to add a license, create a `LICENSE` file at the project root.
