@@ -2,6 +2,8 @@
 
 This repository tracks hands-on machine learning practice, notes, and experiments.
 
+Repository: https://github.com/niloynine/ML_topics
+
 ## What this repo contains
 
 - Practical Python experiments for core ML concepts
@@ -32,6 +34,12 @@ python -m venv myenv
 pip install numpy pandas scikit-learn matplotlib jupyter ipykernel
 ```
 
+Or install from a `requirements.txt` file if available:
+
+```powershell
+pip install -r requirements.txt
+```
+
 3. Run a script:
 
 ```powershell
@@ -43,6 +51,15 @@ python experiments\linear_regression_scratch.py
 ```powershell
 jupyter notebook
 ```
+
+How to run a notebook (example):
+
+1. Activate the environment:
+
+```powershell
+.\myenv\Scripts\Activate.ps1
+```
+2. Start Jupyter and open the desired notebook under `experiments/`.
 
 ## Typical workflow
 
